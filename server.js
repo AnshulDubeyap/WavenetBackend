@@ -15,10 +15,11 @@ const app = express();
 app.set("trust proxy", 1);
 app.use(
   cors({
-    origin: "https://wavenet-frontend-2gdt.vercel.app",
+    origin: "https://wavenet-frontend-drab.vercel.app",
     credentials: true,
   })
 );
+
 
 connectDB();
 
