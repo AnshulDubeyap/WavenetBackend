@@ -15,7 +15,7 @@ const app = express();
 app.set("trust proxy", 1);
 app.use(
   cors({
-    origin: "https://wavenet-frontend-phi.vercel.app",
+    origin: "https://wavenet-frontend-2gdt.vercel.app",
     credentials: true,
   })
 );
